@@ -10,7 +10,7 @@ import PullToRefresh
 import UIKit
 
 public class MHPullToRefresh: PullToRefresh {
-    public init(NVActivityIndicatorType type: NVActivityIndicatorType, Color color: UIColor) {
+    public init(NVActivityIndicatorType type: NVActivityIndicatorType, color: UIColor) {
         let height: CGFloat = UIDevice.current.userInterfaceIdiom == .pad ? 65.0 : 55.0
         let refreshView = RefreshView()
         refreshView.type = type
@@ -21,7 +21,7 @@ public class MHPullToRefresh: PullToRefresh {
         super.init(refreshView: refreshView, animator: Animator(refreshView: refreshView), height: height, position: .top)
     }
     
-    public init(NVActivityIndicatorType type: NVActivityIndicatorType, Color color: UIColor, Height height: CGFloat) {
+    public init(NVActivityIndicatorType type: NVActivityIndicatorType, color: UIColor, height: CGFloat) {
         let refreshView = RefreshView()
         refreshView.type = type
         refreshView.color = color
@@ -32,7 +32,7 @@ public class MHPullToRefresh: PullToRefresh {
     }
     
     public convenience init() {
-        self.init(NVActivityIndicatorType: NVActivityIndicatorView.DEFAULT_TYPE, Color: NVActivityIndicatorView.DEFAULT_COLOR)
+        self.init(NVActivityIndicatorType: NVActivityIndicatorView.DEFAULT_TYPE, color: NVActivityIndicatorView.DEFAULT_COLOR)
     }
 }
 

@@ -10,7 +10,6 @@ import MHPullToRefresh
 import UIKit
 
 class ViewController: UIViewController {
-
     fileprivate var tableView: UITableView!
     fileprivate var refresher: MHPullToRefresh!
 
@@ -27,7 +26,7 @@ class ViewController: UIViewController {
         tableView.bottomAnchor.constraint(equalTo: view.bottomAnchor).isActive = true
 
         // MHPullToRefresh Setup
-        refresher = MHPullToRefresh(NVActivityIndicatorType: .circleStrokeSpin, Color: .black) // MHPullToRefresh()
+        refresher = MHPullToRefresh(NVActivityIndicatorType: .circleStrokeSpin, color: .black) // MHPullToRefresh()
         tableView.addPullToRefresh(refresher) {
             let delayTime = DispatchTime.now() + Double(Int64(5 * Double(NSEC_PER_SEC))) / Double(NSEC_PER_SEC)
             DispatchQueue.main.asyncAfter(deadline: delayTime) { [weak self] in
@@ -37,14 +36,12 @@ class ViewController: UIViewController {
                 self?.tableView.endRefreshing(at: .top)
             }
         }
-
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
 }
 
 extension ViewController: UITableViewDataSource {
