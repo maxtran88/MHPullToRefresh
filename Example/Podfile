@@ -1,11 +1,9 @@
 use_frameworks!
 
-target 'NVPullToRefresh_Example' do
-  pod 'NVPullToRefresh', :path => '../'
+target 'MHPullToRefresh_Example' do
+  pod 'MHPullToRefresh', :path => '../'
 
-  target 'NVPullToRefresh_Tests' do
+  target 'MHPullToRefresh_Tests' do
     inherit! :search_paths
-
-    
   end
 end

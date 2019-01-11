@@ -1,0 +1,6 @@
+framework module MHPullToRefresh {
+  umbrella header "MHPullToRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

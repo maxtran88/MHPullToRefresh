@@ -1,5 +1,5 @@
 import XCTest
-import NVPullToRefresh
+import MHPullToRefresh
 
 class Tests: XCTestCase {
     

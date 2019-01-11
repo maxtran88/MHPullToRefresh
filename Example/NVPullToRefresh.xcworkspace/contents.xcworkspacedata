@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:NVPullToRefresh.xcodeproj">
+      location = "group:/Volumes/DATA/PROJECTS/MHPullToRefresh/Example/MHPullToRefresh.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

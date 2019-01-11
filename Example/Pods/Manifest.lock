@@ -1,29 +1,29 @@
 PODS:
-  - NVActivityIndicatorView (4.1.1):
-    - NVActivityIndicatorView/Presenter (= 4.1.1)
-  - NVActivityIndicatorView/Presenter (4.1.1)
-  - NVPullToRefresh (0.1.0):
-    - NVActivityIndicatorView (~> 4.1.1)
-    - PullToRefresher (~> 3.0.2)
-  - PullToRefresher (3.0.2)
+  - MHPullToRefresh (0.1.0):
+    - NVActivityIndicatorView
+    - PullToRefresher
+  - NVActivityIndicatorView (4.5.1):
+    - NVActivityIndicatorView/Presenter (= 4.5.1)
+  - NVActivityIndicatorView/Presenter (4.5.1)
+  - PullToRefresher (3.1)
 
 DEPENDENCIES:
-  - NVPullToRefresh (from `../`)
+  - MHPullToRefresh (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - NVActivityIndicatorView
     - PullToRefresher
 
 EXTERNAL SOURCES:
-  NVPullToRefresh:
+  MHPullToRefresh:
     :path: "../"
 
 SPEC CHECKSUMS:
-  NVActivityIndicatorView: 60109b9bf46efc2e71ab81453196ccdfdfeea870
-  NVPullToRefresh: 128d47ee3f6974698794cb8bc584d6c48db31588
-  PullToRefresher: 25a367871a70b1da0b28e8e7cecceb4ef04f5f56
+  MHPullToRefresh: f88f2d3ed3f2cda9b4afd6a37f1117e442fbf450
+  NVActivityIndicatorView: ec34a7b88c51fab270004a1a1f32116e711010cd
+  PullToRefresher: ec8c1942bd61bb512ff520c49f9f00903cfa86c7
 
-PODFILE CHECKSUM: 2622334c4ee16581bdb26d2585954cb8c88ce869
+PODFILE CHECKSUM: ac9d65f7f0a567e1a8def5b4490ea53c5c030924
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.3

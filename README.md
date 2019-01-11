@@ -1,11 +1,11 @@
-# NVPullToRefresh
+# MHPullToRefresh
 
 PullToRefresh + NVActivityIndicatorView
 =======================================
 
 
 [![Language: Swift 4](https://img.shields.io/badge/language-swift4-f48041.svg?style=flat-square)](https://developer.apple.com/swift)
-[![CocoaPods compatible](https://img.shields.io/cocoapods/v/NVPullToRefresh.svg?style=flat-square)](https://cocoapods.org/pods/SwiftyContacts)
+[![CocoaPods compatible](https://img.shields.io/cocoapods/v/MHPullToRefresh.svg?style=flat-square)](https://cocoapods.org/pods/SwiftyContacts)
 
 ## Example
 
@@ -13,11 +13,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-NVPullToRefresh is available through [CocoaPods](http://cocoapods.org). To install
+MHPullToRefresh is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'NVPullToRefresh'
+pod 'MHPullToRefresh'
 ```
 
 
@@ -37,14 +37,14 @@ pod 'NVPullToRefresh'
 
 ## Get started
 
-Import NVPullToRefresh
+Import MHPullToRefresh
 
 ```swift
-    import NVPullToRefresh
+    import MHPullToRefresh
 ```
 
 ```swift
-    var refresher = NVPullToRefresh(NVActivityIndicatorType: .circleStrokeSpin, Color: .black)
+    var refresher = MHPullToRefresh(NVActivityIndicatorType: .circleStrokeSpin, Color: .black)
     
     tableView.addPullToRefresh(refresher) {
             //Do Your Thing Here.
@@ -54,7 +54,7 @@ Import NVPullToRefresh
 The easiest way to create *PullToRefresh*:
 
 ```swift
-  let refresher = NVPullToRefresh()
+  let refresher = MHPullToRefresh()
 ```
 
 It will create a default pull-to-refresh with a simple view which has single *UIActivitiIndicatorView*. To add refresher to your *UIScrollView* subclass:
@@ -105,4 +105,4 @@ satish.babariya@gmail.com, satish.babariya@gmail.com
 
 ## License
 
-NVPullToRefresh is available under the MIT license. See the LICENSE file for more info.
+MHPullToRefresh is available under the MIT license. See the LICENSE file for more info.
